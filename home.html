@@ -9,18 +9,21 @@
 <body>
     <!-- Add Logo Image -->
     <header>
-        <div class="logo">Logo</div>
+        <div class="logo">
+            <img src="Images/Logo_Furniture.png" alt="">
+        </div>
         <nav>
             <ul>
-                <li><a href="/home.html">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="hero-content">
             <span style="display: block;  text-align: left;"><img src="Images/open-quote.png" alt="" style="width: 70px;"></span>
             <div style="width: 800px; margin: 0 auto; margin-top: -5px; font-size: 20px;"><h1>Custom Furniture Solutions: Design, Build, and Install Your Perfect Piece</h1></div>
@@ -30,7 +33,7 @@
     </section>
 
     <!-- Add Information about the services -->
-    <section class="services">
+    <section class="services" id="services">
         <div class="website-heading">
             <h1>Our Services</h1>
             <div class="heading-underline" ></div>
@@ -38,33 +41,31 @@
         <div class="service-cards">
             <div class="card">
                 <img src="Images/service1.jpg" alt="Service 1">
-                <h3>Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Earum eaque tempore quae eius ea at autem. Vitae nemo, reprehenderit,
-                     nihil animi aperiam possimus officia tenetur laborum, totam temporibus facere. 
-                     Iure.</p>
+                <h3>Custom Kitchen Cabinets</h3>
+                <p>Our expert craftsmen design and build custom kitchen cabinets that maximize storage, functionality, and style. From modern to traditional designs, we tailor each piece to your specifications.
+
+                </p>
             </div>
             <div class="card">
                 <img src="Images/service2.jpg" alt="Service 2">
-                <h3>Build</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Earum eaque tempore quae eius ea at autem. Vitae nemo, reprehenderit,
-                     nihil animi aperiam possimus officia tenetur laborum, totam temporibus facere. 
-                     Iure.</p>
+                <h3>Bathroom Vanities and Storage</h3>
+                <p>Enhance your bathroom with elegant vanities and storage solutions that blend seamlessly with your decor while providing ample space for all your needs.</p>
             </div>
             <div class="card">
-                <img src="Images/services3.jpeg" alt="Service 3">
-                <h3>Installation</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Earum eaque tempore quae eius ea at autem. Vitae nemo, reprehenderit,
-                     nihil animi aperiam possimus officia tenetur laborum, totam temporibus facere. 
-                     Iure.</p>
+                <img src="Images/service3.jpg" alt="Service 3">
+                <h3>Built-In Cabinets and Shelving</h3>
+                <p>Add character and practicality to any room with our custom-built cabinets and shelving. Perfect for living rooms, home offices, and more, our designs integrate seamlessly into your space.</p>
+            </div>
+            <div class="card">
+                <img src="Images/service4.jpg" alt="Service 3">
+                <h3>Closet Systems</h3>
+                <p>Our custom closet systems help you organize your wardrobe and accessories efficiently. We offer a variety of configurations and finishes to match your style.</p>
             </div>
         </div>
     </section>
 
     <!--  -->
-    <section class="reviews">
+    <!-- <section class="reviews">
         <div class="website-heading">
             <h2>Customer Reviews</h2>
             <div class="heading-underline" ></div>
@@ -75,21 +76,16 @@
             <div class="review">Review 2 from Google Maps.</div>
             <div class="review">Review 3 from Google Maps.</div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Add About Information -->
-    <section class="about">
+    <section class="about" id="about">
         <div class="about-content">
             <div class="about-text">
                 <h2>Why Choose Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Doloribus numquam ullam iste ea sequi assumenda minus fugit 
-                    dolor dignissimos, eos voluptatibus deserunt consequatur porro 
-                    sint deleniti consequuntur, error quasi. Fuga. Lorem ipsum 
-                    dolor sit amet consectetur adipisicing elit. Commodi voluptatibus 
-                    error fuga provident repudiandae non porro blanditiis natus omnis 
-                    hic est voluptatem ipsum maxime quo minus ullam, ducimus pariatur sed.</p>
-                <a href="contact.html" class="btn">Contact Us</a>
+                <!-- <h3>My Home Design: Custom Cabinetry and Home Improvement Experts</h3> -->
+                <p>At My Home Design, we specialize in transforming spaces with high-quality, custom cabinetry that perfectly suits your home and lifestyle. Located in toronto, we offer a comprehensive range of home improvement services, with a strong emphasis on creating beautiful, functional cabinetry solutions.</p>
+                <a href="about.html" class="btn">More About Us</a>
             </div>
             <div class="about-image">
                 <img src="Images/about.jpg" alt="About Us">
@@ -102,9 +98,10 @@
         <div class="footer-left">
             <h4>LINKS</h4>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Our Services</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#about">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
             <ul class="social-media">
@@ -128,12 +125,12 @@
         </div>
         <div class="footer-right">
             <h4>CONTACT US</h4>
-            <p>123 Business Street</p>
-            <p>City, Country</p>
-            <p><img src="Images/direction.png" alt=""/><a href="">Get Direction</a></p>
-            <p><img src="Images/phone.png" alt=""/><a href="">(123) 456-7890</a></p>
-            <p><img src="Images/phone.png" alt=""/><a href="">(234) 235-2352</a></p>
-            <p><img src="Images/email.png" alt=""/><a href="">abc@email.com</a></p>
+            <!-- <p>123 Business Street</p> -->
+            <!-- <p></p> -->
+            <p><img src="Images/direction.png" alt=""/><a href="">Vaughan , Toronto , ON</a></p>
+            <p><img src="Images/phone.png" alt=""/><a href="">416-201-2220</a></p>
+            <!-- <p><img src="Images/phone.png" alt=""/><a href="">(234) 235-2352</a></p> -->
+            <p><img src="Images/email.png" alt=""/><a href="">Info.myhomedesigns.ca</a></p>
         </div>
     </footer>
 </body>
